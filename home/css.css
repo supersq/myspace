@@ -1,0 +1,422 @@
+*{margin:0;padding:0;list-style: none;font-family: "Microsoft YaHei" ! important;}
+/*div{border: 1px solid red}
+li{border: 1px solid red}*/
+.inform{height:36px;background-color: #F3F3F3;}
+.g-hd{height:90px;}
+.g-tag{height:297px;}
+.g-bd{height:1520px;}
+.g-ft{height:262px;background-color: #2C3339;}
+.wrap{margin:0 208px;}
+.left{float: left;}
+.right{float: right;}
+a{text-decoration: none;}
+body{background-color: #F8F8F8}
+/*提示消息*/
+.inform .left{line-height: 36px;font-size: 12px;}
+.inform .right{line-height: 36px;font-size: 12px;}
+.inform a{color: #399E34;}
+body{width: 1366px;
+margin:0 auto;}
+/*网页头*/
+.g-hd .wrap{padding-top:32px;}
+.logo{
+	width: 73px;
+	height: 26px;
+	background: url(img/spirit.png) no-repeat -223px 0;
+	float:left;
+}
+.g-hd .header1{
+	line-height: 26px;
+	font-size: 26px;
+	float:left;
+}
+.g-hd .header2 a{
+	width: 56px;
+	height: 22px;
+	text-align: center;
+	margin-left: 34px;
+	margin-top: 4px;
+	line-height: 22px;
+	background-color: #21A557;
+	color:white;
+	font-size: 14px;
+	float:left;
+}
+.g-hd .header3{
+	margin-left: 18px;
+	margin-top: 4px;
+	line-height: 22px;
+	font-size: 14px;
+	float: left
+}
+.g-hd .search{
+	width: 18px;
+	height: 18px;
+	float: right;
+	background: url(img/spirit.png) no-repeat 0 0;;
+}
+.g-hd .header4{
+	font-size: 18px;
+	width: 168px;
+	height: 18px;
+	line-height: 18px;
+	float: right;
+}
+.g-hd .header5{
+	font-size: 18px;
+	width: 100px;
+	height: 18px;
+	line-height: 18px;
+	float: right;
+}
+.g-hd .header6{
+	font-size: 18px;
+	width: 150px;
+	height: 18px;
+	line-height: 18px;
+	float: right;
+}
+/*lunbo*/
+.banner{width:100%;overflow:hidden;height:460px;position:relative}
+.change{position: absolute;left:650px;top:427px;}
+.change li{border-radius:50%;background-color:#FFFFFF;float:left;width:13px;height:13px;margin:0 5px;cursor:pointer;}
+.change .active{background-color: black}
+/*.banList{position:absolute;left:50%;margin-left:-960px;height:470px}
+.banList li{height:470px;opacity:0;position:absolute;transform:scale(0);transition:transform 0.5s ease 0s, opacity 1.5s ease 0s;z-index:1;}
+.banList li.active{opacity:1;transform:scale(1);z-index:2;}
+.fomW{position:absolute;bottom:20px;left:50%;height:20px;z-index:9;width:1000px;margin-left:-500px}
+.jsNav{text-align:center;}
+.jsNav a{display:inline-block;background:#fff;width:15px;height:15px;border-radius:50%;margin:0 5px;}
+.jsNav a.current{background:#fc8f0f;cursor:pointer}*/
+/*中部展示*/
+#work_display{
+	position: relative;
+	overflow: hidden;
+	height: 220px;
+}
+#work_display #workplace{
+	position: absolute;
+	width: 800%;
+}
+#work_display #list1{
+	position: absolute;
+	left:0px;
+}
+#work_display #list2{
+	position: absolute;
+	left:1600px;
+}
+#work_display li{
+	width: 316px;
+	display: inline-block;
+}
+/**/
+.g-tag .wrap{
+	padding-top: 60px;
+}
+.g-tag li{
+	width:294px;
+	height:237px;
+	padding-right: 25px; 
+	float:left;
+}
+.g-tag li.last{
+	padding-right: 0px;
+}
+.g-tag li.first div.left{
+	background: url(img/spirit.png) no-repeat 0 -83px;
+	width: 80px;
+	height: 237px;
+}
+.g-tag li.second div.left{
+	background: url(img/spirit.png) no-repeat -80px -83px;
+	width: 80px;
+	height: 237px;
+}
+.g-tag li.last div.left{
+	background: url(img/spirit.png) no-repeat -160px -83px;
+	width: 80px;
+	height: 237px;
+}
+.g-tag div.right{
+	width: 200px;
+	height: 237px;
+}
+.g-tag div.right h2{
+	height: 22px;
+	line-height: 22px;
+	padding: 3px;
+}
+.g-tag div.right p{
+	height: 112px;
+	line-height: 24px;
+	font-size: 15px;
+	padding: 3px;
+}
+.g-tag div.right .more{
+	height: 78px;
+	font-size: 15px;
+	line-height: 78px;
+}
+.g-tag div.right .more a{
+	color: #399E34;
+}
+/*网页主体*/
+.g-bd .wrap{
+	overflow: auto;
+	padding-top: 80px;
+}
+.g-bd .left{
+	width: 750px;
+	height:1370px;
+}
+.g-bd .right{
+	width: 200px;
+	height:1370px;
+}
+.g-bd .left .title{
+	width: 718px;
+	height:52px;
+	margin-bottom: 8px;
+}
+.g-bd .left .title li{
+	width: 202px;
+	height:52px;
+	line-height: 52px;
+	font-size: 23px;
+	text-align: center;
+	float: left;
+	background-color: #FFFFFF;
+}
+.g-bd .left .title .first{
+	color: white;
+	background-color:#399F2F;
+}
+.g-bd .left .title .other{
+	cursor: pointer;
+}
+.g-bd .left .list li{
+	width:225px;
+	height: 230px;
+	margin-top: 22px;
+	margin-right: 25px;
+	position: relative;
+	float: left;
+	background-color: #FFFFFF;
+}
+.g-bd .left .list li img{
+	width: 225px;
+	height: 127px;
+}
+.g-bd .left .list li .detail{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	width: 450px;
+	padding: 20px;
+	display: none;
+	z-index: 99;
+	background-color: #FFFFFF;
+}
+.g-bd .left .list li .desc{
+	font-size: 12px;
+	padding: 3px;
+}
+.g-bd .left .list li .author{
+	font-size: 10px;
+	color:#DDDDDD;
+	padding:3px;
+}
+.g-bd .left .list li .num{
+	width: 40px;
+	height: 16px;
+	text-align: right;
+	font-size: 10px;
+	line-height: 16px;
+	color:#DDDDDD;
+	margin:2px;
+	padding: 1px;
+	border: 1px solid #DDDDDD;
+	background: url(img/spirit.png) no-repeat -35px -19px;
+}
+.g-bd .left .list li .price{
+	color:red;
+	font-weight: bold;
+}
+.g-bd .left .detail .left{
+	width:223px;
+	height: 125px;
+	padding: 0 20px 20px 0;
+}
+.g-bd .left .detail .art{
+	width:180px;
+	height: 125px;
+	padding-bottom: 20px;
+}
+.g-bd .left .detail .name{
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.g-bd .left .detail .learnerCount{
+	padding: 2px 20px;
+	width: 75px;
+	height: 14px;
+	line-height: 14px;
+	margin-bottom: 5px;
+	background: url(img/spirit.png) no-repeat -36px -18px;
+}
+.g-bd .left .detail .provider{
+	height: 18px;
+	line-height: 18px;
+	padding: 1px;
+}
+.g-bd .left .detail .categoryName{
+	height: 18px;
+	line-height: 18px;
+	padding: 1px;
+}
+.g-bd .left .detail .description{
+	padding: 15px 0px;
+	line-height: 25px;
+	font-size: 15px;
+	clear: both;
+}
+.g-bd .right .title{
+	font-size: 16px;
+	font-weight: bold;
+	line-height:17px;
+	border-bottom: 1px solid #DDDDDD;
+	height:17px;
+}
+.g-bd .right ul{
+	position: relative;
+	top: 0px;
+}
+.g-bd .right #box{
+	padding: 0;
+	height: 590px;
+	position: relative;
+	overflow: hidden;
+}
+.g-bd .right div,.g-bd .right li{
+	padding: 18px;
+	background-color: #FFFFFF;
+}
+.g-bd .right .cont{
+	height:114px;
+	font-size: 13px;
+	margin-bottom: 23px;
+}
+.g-bd .right .cont p{
+	padding-bottom: 5px;
+}
+.g-bd .right li{
+	height:45px;
+	vertical-align:top;
+	padding:7px 14px 7px 14px;
+}
+.g-bd .right li .left{
+	width: 45px;
+	height: 45px;
+	padding: 0;
+}
+.g-bd .right li .right{
+	width: 120px;
+	height: 45px;
+	padding: 0;
+	margin-left: 5px;
+}
+.g-bd .right li .left img{
+	width: 45px;
+	height: 45px;
+}
+.g-bd .right li p{
+	text-overflow:ellipsis;
+	white-space:nowrap; 
+	overflow:hidden; 
+	font-size: 15px;
+}
+.g-bd .right li span{
+	width: 50px;
+	font-size: 10px;
+	color:#DDDDDD;
+	display: block;
+	text-align: right;
+	padding-top:5px; 
+	background: url(img/spirit.png) no-repeat -38px -16px;
+}
+/*fenye*/
+.g-bd #fenye{
+	clear: both;
+	width: 300px;
+	height: 20px;
+	margin:10px auto;
+}
+.g-bd #fenye span{
+	width:25px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 10px;
+	text-align: center;
+	margin:0 2px;
+	cursor: pointer;
+	display: inline-block;
+}
+.g-bd #fenye .prev,.g-bd #fenye .next{
+	width:30px;
+	background: url(img/spirit.png) no-repeat -38px -63px;
+}
+/*.g-bd .fenye .nowPage{
+	cursor: auto;
+	background: url(img/spirit.png) no-repeat -38px -63px;
+}*/
+/*网页尾部*/
+.g-ft .left{
+	width: 536px;
+	height: 90px;
+	margin-top: 83px;
+}
+.g-ft .left .line1{
+	width: 230px;
+	text-align: right;
+	font-size: 22px;
+	height: 25px;
+	line-height: 25px;
+	color:#399F2F;
+	margin-bottom: 10px;
+	background: url(img/spirit.png) no-repeat -224px 0px;
+}
+.g-ft .left .line2{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #8A8F93;
+}
+.g-ft ul{
+	margin-top: 75px;
+}
+.g-ft ul{
+	float: left;
+}
+.g-ft .title{
+	font-size: 13px;
+}
+.g-ft li{
+	height: 27px;
+	line-height: 27px;
+	color: #8A8F93;
+	font-size: 14px;
+}
+.g-ft .row1{
+	width: 210px
+}
+.g-ft .row2{
+	width: 130px
+}
+.g-ft div.weibo{
+	width:56px;
+	background:url(img/spirit.png) no-repeat -165px -10px;
+}
+.g-ft li a{
+	color: #8A8F93;
+}
